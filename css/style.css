@@ -1,0 +1,86 @@
+body {
+    background: lime;
+    box-sizing: border-box;
+    outline: 15px solid blue;
+    border: 15px solid red;
+}
+#accordeon {
+    width: 380px;
+    border: 10px solid #008000;
+    border-radius: 5px;
+    box-shadow: 0 0 20px #FF00FF;
+    margin: 40px auto;
+    font-family: Times New Roman;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.acc-heading {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.acc-heading:hover {
+    cursor: pointer;
+    font-size: 45px;
+    text-shadow: 3px 3px 2px blue;
+}
+
+.description {
+    background: #00FFFF;
+    color: #000080;
+    padding: 8px;
+   font-family: Playfair Display, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.picture {
+    margin-left: 18px;
+}
+
+.location {
+    margin-left: 52px;
+    color: #ffeac2;
+}
+
+.music {
+    margin-left: 54px;
+    color: #e5b36b;
+}
+
+.notes {
+    margin-left: 58px;
+    color: #620101;
+}
+
+.books {
+    margin-left: 54px;
+    color: #a63d3d;
+}
+
+.tendances {
+    margin-left: 54px;
+    color: #ffeac2;
+}
+
+.acc-heading:nth-child(1) {
+    background: #620808;
+}
+
+.acc-heading:nth-child(3) {
+    background: #a53f3f;
+}
+
+.acc-heading:nth-child(5) {
+    background: #f4ce74;
+}
+
+.acc-heading:nth-child(7) {
+    background: #ffe9c1;
+}
+
+.acc-heading:nth-child(9) {
+    background: #d5441c;
+}
